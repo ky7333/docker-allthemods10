@@ -14,9 +14,6 @@ permissions:
 jobs:
   docker-image:
     runs-on: ubuntu-latest
-    
-    permissions:
-      contents: read
       
     steps:
       - name: Check out the repository
